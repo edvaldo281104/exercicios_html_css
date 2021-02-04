@@ -1,9 +1,10 @@
 body{
     background-color: #e5e5e5;
+    
 }
 
 section{
-    background-color: #ffffff;
+
     width: 350px;
     margin: 100px auto;
     padding: 20px;
@@ -11,20 +12,40 @@ section{
     flex-direction: column;
     align-items: center;
 }
+.boxformulario{
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px 0 20px 0;
+    width: 342px;
+}
+.boxformulario p{
+    width: 60%;
+}
 
 input{
     margin: 10px 0;
     width: 70%;
+    height: 25px;
+    background-color: #e5e5e5;
+    border: 1px solid #dcdcdc;
+    padding-left: 5px;
 }
 
 .logo{
     width: 100px;
     margin: 0 auto;
+    
 }
 
 button{
     width: 70%;
     margin: 30px auto;
+    background-color: #2686cc;
+    color: #fff;
+    height: 30px;
+    border: none;
 }
 
 p{
@@ -34,10 +55,15 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
+    height: 70px;
+    width: 342px;
+    margin-top: 10px;
 }
 
 a{
     margin-left:5px;
+    color: #2686cc;
 }
 
 
